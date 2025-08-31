@@ -29,12 +29,12 @@ export default function Home() {
           </li>
           <li className="mb-2 tracking-[-.01em]">
             <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              redu auth -u demo-user
+              redu auth -u demo
             </code>
           </li>
           <li className="tracking-[-.01em]">
             <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              redu ai create /demo-repository -domain demo.redu.cloud
+              redu ai create -d demo.redu.cloud -r redu-demo/
             </code>
           </li>
           <li className="tracking-[-.01em]">
